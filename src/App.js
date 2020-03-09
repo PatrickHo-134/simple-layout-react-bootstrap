@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import Dashboard from "./components/dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,8 +10,6 @@ function App() {
       style={{
         justifyContent: "center",
         alignItems: "center",
-        width: "200vh",
-        height: "100vh",
         backgroundColor: "#0099CC"
       }}
     >
